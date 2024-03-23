@@ -5,4 +5,42 @@
 
 .container {
     display: grid;
+    grid-template-columns: 1fr 5fr;
+
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.leftMenu {
+    grid-row: 1/-1;
+    grid-column: 1/2;
+
+    background-color: aquamarine;
+}
+
+.rightSide {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.upperPanel {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+    background-color: white;
+}
+
+.lowerPanel {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    background-color: bisque;
+}
+
+.announcTrending {
+    background-color: beige;
 }
