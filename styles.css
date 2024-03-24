@@ -23,8 +23,8 @@ ul {
     grid-template-rows: 1fr 5.5fr;
     gap: 30px;
 
-    background-color: lightseagreen;
-    color: white;
+    background-color: #84a59d;
+    color:#f7ede2;
     font-family: monospace;
     font-weight: bold;
     font-size: 30px;
