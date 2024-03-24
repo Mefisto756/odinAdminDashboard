@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -15,9 +19,43 @@
 .leftMenu {
     grid-row: 1/-1;
     grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 1fr 5.5fr;
+    gap: 30px;
 
-    background-color: aquamarine;
+    background-color: lightseagreen;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
 }
+
+
+.icons {
+    height: 1.5em;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+li {
+    display: flex;
+    align-items: center;
+    height: 1.5em;
+    margin-bottom: 15px;
+}
+
+.leftMenu ul > li:hover{
+    color: rgb(177, 177, 177);
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
 
 .rightSide {
     display: grid;
@@ -44,3 +82,4 @@
 .announcTrending {
     background-color: beige;
 }
+
